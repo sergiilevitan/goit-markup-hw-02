@@ -1,7 +1,55 @@
+/* general styles */
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #2196f3;
+  --primary-bgd-color: #fff;
 }
 
 body {
   font-family: roboto, sans-serif;
+  background-color: var(--primary-bgd-colorprimary-bgd-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style-type: none;
+}
+/* header styles */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--secondary-text-color);
+}
+.hero-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }

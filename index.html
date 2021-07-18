@@ -1,40 +1,42 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>WebStudio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>WebStudio</title>
 </head>
 <body>
   <!--header section-->
   <header>
     <nav>
-        <a href="">
-          <p><span>Web</span><span>Studio</span></p>
+        <a class="logo" href="./index.html">
+          <p ><span>Web</span><span style="color: var(--primary-text-color)">Studio</span></p>
         </a>
-        <ul>
-          <li> <a href="/">Студия</a></li>
-          <li> <a href="/">Портфолио</a></li>
-          <li> <a href="/">Контакты</a></li>
+        <ul class="list">
+          <li> <a class="nav-link" href="/">Студия</a></li>
+          <li> <a class="nav-link" href="/">Портфолио</a></li>
+          <li> <a class="nav-link"href="/">Контакты</a></li>
         </ul>     
     </nav>
-    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-    <a href="tel:+380961111111">+38 096 111 11 11</a>
+    <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <a style="color:#757575" class="nav-link"  href="tel:+380961111111">+38 096 111 11 11</a>
     
-    
-  </header>
+      </header>
   <main>
     <!-- Hero section-->
-    <section>
-      <h1>Эффективные решения для вашего бизнеса</h1>
-      <button type="button">Заказать услугу</button>
+    <section style="background-color: #2F303A;">
+      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+      <button  class="hero-button" type="button">Заказать услугу</button>
     </section>
     <!--Advantages section-->
     <section>
       <h2>Преимущества, позже скрыть данный заголовок</h2>
-      <ul>
+      <ul class="list">
         <li>
           <h3 class="advantagehead">Внимание к деталям</h3>
           <P class="advantagetext">Идейные соображения, а также начало повседневной работы по формированию позиции.</P>
@@ -56,7 +58,7 @@
     <!--workflow section-->
     <section>
       <h2>Чем мы занимаемся</h2>
-      <ul>
+      <ul class="list">
         <li>
           <a href=""> <img src="./images/desktop.jpg" alt="картинка компьютера" width="370"></a>
         </li>
@@ -71,7 +73,7 @@
     <!--our team section-->
     <section>
       <h2>Наша команда</h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./images/tm1.jpg" alt="фото члена команды" width="270">
           <h3>Игорь Демьяненко</h3>
