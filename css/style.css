@@ -42,7 +42,9 @@ body {
 .nav-link-contacts:hover,
 .nav-link-contacts:focus,
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
   color: var(--secondary-text-color);
 }
 .hidden-title {
@@ -67,6 +69,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* advantage styles */
@@ -99,7 +102,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -123,7 +125,6 @@ body {
   color: #fff;
 }
 .address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -131,7 +132,6 @@ body {
   font-style: normal;
 }
 .footer-contacts {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -170,6 +170,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  font-weight: 400;
   color: #757575;
 }
