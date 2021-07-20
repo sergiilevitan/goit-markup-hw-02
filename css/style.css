@@ -15,6 +15,9 @@ body {
 .list {
   list-style-type: none;
 }
+.link {
+  text-decoration: none
+}
 /* header styles */
 .logo {
   font-family: Raleway, sans-serif;
@@ -119,6 +122,7 @@ body {
 }
 .footer-title,
 .footer-title-part {
+  text-decoration: none;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
